@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhavya Portfolio</title>
+    <!-- Link to our clean, premium Vanilla CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Ionicons for some decent looking icons without bulky dependencies -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-content">
+            <a href="#home" class="logo">Bhavya.</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li>
+                    <button class="theme-toggle" id="themeToggle" aria-label="Toggle Dark Mode">☀️</button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container hero-content reveal">
+            <img src="Profile.jpg" alt="Bhavya Reddy" class="profile-img">
+            <h1>Hi, I'm <span class="highlight">Bhavya</span> 👋</h1>
+            <p>Passionate B.Tech student and aspiring Software Developer, building interactive and beautiful web experiences.</p>
+            <div class="hero-btns">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="resume.pdf" class="btn btn-secondary" download="Bhavya_Resume.pdf">Download Resume</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container reveal">
+            <div class="text-center">
+                <h2>About Me</h2>
+            </div>
+            <div class="about-content">
+                <p>
+                    I am a highly motivated student with a strong passion for web development, software engineering, and continuous problem-solving. My journey in tech involves exploring efficient ways to build applications from designing intuitive frontends to scalable backends. I thrive on collaborating and turning complex ideas into functional products.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container reveal">
+            <div class="text-center">
+                <h2>Featured Projects</h2>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-icon">🛒</div>
+                    <h3>Amazon Clone</h3>
+                    <p>A responsive UI replica of Amazon's frontend interface aimed at mastering modern web layouts and components.</p>
+                    <div class="tags">
+                        <span class="tag">HTML5</span>
+                        <span class="tag">CSS3</span>
+                        <span class="tag">JavaScript</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><ion-icon name="logo-github"></ion-icon> Source Code</a>
+                        <a href="#" class="project-link"><ion-icon name="open-outline"></ion-icon> Live Demo</a>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-icon">🌱</div>
+                    <h3>Gardening Planner</h3>
+                    <p>A full-stack web application designed for organizing and planning gardening schedules. Features user authentication and data persistence.</p>
+                    <div class="tags">
+                        <span class="tag">Node.js</span>
+                        <span class="tag">Express</span>
+                        <span class="tag">MongoDB</span>
+                        <span class="tag">EJS</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/BhaviReddyy/Gardening-Planner" target="_blank" class="project-link"><ion-icon name="logo-github"></ion-icon> Source Code</a>
+                        <a href="https://gardening-guide.netlify.app/signin" target="_blank" class="project-link"><ion-icon name="open-outline"></ion-icon> Live Demo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container reveal">
+            <div class="text-center">
+                <h2>Get In Touch</h2>
+            </div>
+            
+            <div class="contact-container">
+                <div class="contact-content">
+                    <h3>Let's build together</h3>
+                    <p>I'm currently looking for new opportunities. Whether you have a question or just want to say hi, I'll try my best to get back to you!</p>
+                    <a href="mailto:bhavyareddy506@gmail.com" class="btn btn-primary">Say Hello</a>
+                    
+                    <div class="social-links">
+                        <a href="https://github.com/BhaviReddyy" target="_blank" aria-label="GitHub"><ion-icon name="logo-github"></ion-icon></a>
+                        <a href="https://www.linkedin.com/in/yata-bhavya-aa0a66272/" target="_blank" aria-label="LinkedIn"><ion-icon name="logo-linkedin"></ion-icon></a>
+                        <a href="mailto:bhavyareddy506@gmail.com" aria-label="Email"><ion-icon name="mail-outline"></ion-icon></a>
+                        <a href="tel:9573534169" aria-label="Mobile"><ion-icon name="call-outline"></ion-icon></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Bhavya. Built with ❤️ and Pure CSS.</p>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollTopBtn" aria-label="Scroll to top">
+        <ion-icon name="arrow-up-outline"></ion-icon>
+    </button>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+
+</html>
